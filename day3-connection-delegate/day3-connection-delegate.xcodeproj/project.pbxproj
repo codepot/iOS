@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B2B8F211B4E20A900C7E3CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2B8F201B4E20A900C7E3CB /* main.m */; };
+		0B2B8F241B4E20A900C7E3CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2B8F231B4E20A900C7E3CB /* AppDelegate.m */; };
+		0B2B8F271B4E20A900C7E3CB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2B8F261B4E20A900C7E3CB /* ViewController.m */; };
+		0B2B8F2A1B4E20A900C7E3CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B2B8F281B4E20A900C7E3CB /* Main.storyboard */; };
+		0B2B8F2C1B4E20A900C7E3CB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B2B8F2B1B4E20A900C7E3CB /* Images.xcassets */; };
+		0B2B8F2F1B4E20A900C7E3CB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B2B8F2D1B4E20A900C7E3CB /* LaunchScreen.xib */; };
+		0B2B8F3B1B4E20A900C7E3CB /* day3_connection_delegateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2B8F3A1B4E20A900C7E3CB /* day3_connection_delegateTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B2B8F351B4E20A900C7E3CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B2B8F131B4E20A900C7E3CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B2B8F1A1B4E20A900C7E3CB;
+			remoteInfo = "day3-connection-delegate";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B2B8F1B1B4E20A900C7E3CB /* day3-connection-delegate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "day3-connection-delegate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B2B8F1F1B4E20A900C7E3CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B2B8F201B4E20A900C7E3CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0B2B8F221B4E20A900C7E3CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0B2B8F231B4E20A900C7E3CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0B2B8F251B4E20A900C7E3CB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0B2B8F261B4E20A900C7E3CB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0B2B8F291B4E20A900C7E3CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0B2B8F2B1B4E20A900C7E3CB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0B2B8F2E1B4E20A900C7E3CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		0B2B8F341B4E20A900C7E3CB /* day3-connection-delegateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "day3-connection-delegateTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B2B8F391B4E20A900C7E3CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B2B8F3A1B4E20A900C7E3CB /* day3_connection_delegateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = day3_connection_delegateTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B2B8F181B4E20A900C7E3CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B2B8F311B4E20A900C7E3CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B2B8F121B4E20A900C7E3CB = {
+			isa = PBXGroup;
+			children = (
+				0B2B8F1D1B4E20A900C7E3CB /* day3-connection-delegate */,
+				0B2B8F371B4E20A900C7E3CB /* day3-connection-delegateTests */,
+				0B2B8F1C1B4E20A900C7E3CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0B2B8F1C1B4E20A900C7E3CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B2B8F1B1B4E20A900C7E3CB /* day3-connection-delegate.app */,
+				0B2B8F341B4E20A900C7E3CB /* day3-connection-delegateTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B2B8F1D1B4E20A900C7E3CB /* day3-connection-delegate */ = {
+			isa = PBXGroup;
+			children = (
+				0B2B8F221B4E20A900C7E3CB /* AppDelegate.h */,
+				0B2B8F231B4E20A900C7E3CB /* AppDelegate.m */,
+				0B2B8F251B4E20A900C7E3CB /* ViewController.h */,
+				0B2B8F261B4E20A900C7E3CB /* ViewController.m */,
+				0B2B8F281B4E20A900C7E3CB /* Main.storyboard */,
+				0B2B8F2B1B4E20A900C7E3CB /* Images.xcassets */,
+				0B2B8F2D1B4E20A900C7E3CB /* LaunchScreen.xib */,
+				0B2B8F1E1B4E20A900C7E3CB /* Supporting Files */,
+			);
+			path = "day3-connection-delegate";
+			sourceTree = "<group>";
+		};
+		0B2B8F1E1B4E20A900C7E3CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B2B8F1F1B4E20A900C7E3CB /* Info.plist */,
+				0B2B8F201B4E20A900C7E3CB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0B2B8F371B4E20A900C7E3CB /* day3-connection-delegateTests */ = {
+			isa = PBXGroup;
+			children = (
+				0B2B8F3A1B4E20A900C7E3CB /* day3_connection_delegateTests.m */,
+				0B2B8F381B4E20A900C7E3CB /* Supporting Files */,
+			);
+			path = "day3-connection-delegateTests";
+			sourceTree = "<group>";
+		};
+		0B2B8F381B4E20A900C7E3CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B2B8F391B4E20A900C7E3CB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B2B8F1A1B4E20A900C7E3CB /* day3-connection-delegate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B2B8F3E1B4E20A900C7E3CB /* Build configuration list for PBXNativeTarget "day3-connection-delegate" */;
+			buildPhases = (
+				0B2B8F171B4E20A900C7E3CB /* Sources */,
+				0B2B8F181B4E20A900C7E3CB /* Frameworks */,
+				0B2B8F191B4E20A900C7E3CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "day3-connection-delegate";
+			productName = "day3-connection-delegate";
+			productReference = 0B2B8F1B1B4E20A900C7E3CB /* day3-connection-delegate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0B2B8F331B4E20A900C7E3CB /* day3-connection-delegateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B2B8F411B4E20A900C7E3CB /* Build configuration list for PBXNativeTarget "day3-connection-delegateTests" */;
+			buildPhases = (
+				0B2B8F301B4E20A900C7E3CB /* Sources */,
+				0B2B8F311B4E20A900C7E3CB /* Frameworks */,
+				0B2B8F321B4E20A900C7E3CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B2B8F361B4E20A900C7E3CB /* PBXTargetDependency */,
+			);
+			name = "day3-connection-delegateTests";
+			productName = "day3-connection-delegateTests";
+			productReference = 0B2B8F341B4E20A900C7E3CB /* day3-connection-delegateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B2B8F131B4E20A900C7E3CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Dave Henson";
+				TargetAttributes = {
+					0B2B8F1A1B4E20A900C7E3CB = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					0B2B8F331B4E20A900C7E3CB = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 0B2B8F1A1B4E20A900C7E3CB;
+					};
+				};
+			};
+			buildConfigurationList = 0B2B8F161B4E20A900C7E3CB /* Build configuration list for PBXProject "day3-connection-delegate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0B2B8F121B4E20A900C7E3CB;
+			productRefGroup = 0B2B8F1C1B4E20A900C7E3CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B2B8F1A1B4E20A900C7E3CB /* day3-connection-delegate */,
+				0B2B8F331B4E20A900C7E3CB /* day3-connection-delegateTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B2B8F191B4E20A900C7E3CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B2B8F2A1B4E20A900C7E3CB /* Main.storyboard in Resources */,
+				0B2B8F2F1B4E20A900C7E3CB /* LaunchScreen.xib in Resources */,
+				0B2B8F2C1B4E20A900C7E3CB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B2B8F321B4E20A900C7E3CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B2B8F171B4E20A900C7E3CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B2B8F271B4E20A900C7E3CB /* ViewController.m in Sources */,
+				0B2B8F241B4E20A900C7E3CB /* AppDelegate.m in Sources */,
+				0B2B8F211B4E20A900C7E3CB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B2B8F301B4E20A900C7E3CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B2B8F3B1B4E20A900C7E3CB /* day3_connection_delegateTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B2B8F361B4E20A900C7E3CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B2B8F1A1B4E20A900C7E3CB /* day3-connection-delegate */;
+			targetProxy = 0B2B8F351B4E20A900C7E3CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0B2B8F281B4E20A900C7E3CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B2B8F291B4E20A900C7E3CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0B2B8F2D1B4E20A900C7E3CB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B2B8F2E1B4E20A900C7E3CB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0B2B8F3C1B4E20A900C7E3CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0B2B8F3D1B4E20A900C7E3CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B2B8F3F1B4E20A900C7E3CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "day3-connection-delegate/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0B2B8F401B4E20A900C7E3CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "day3-connection-delegate/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0B2B8F421B4E20A900C7E3CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "day3-connection-delegateTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/day3-connection-delegate.app/day3-connection-delegate";
+			};
+			name = Debug;
+		};
+		0B2B8F431B4E20A900C7E3CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "day3-connection-delegateTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/day3-connection-delegate.app/day3-connection-delegate";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B2B8F161B4E20A900C7E3CB /* Build configuration list for PBXProject "day3-connection-delegate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B2B8F3C1B4E20A900C7E3CB /* Debug */,
+				0B2B8F3D1B4E20A900C7E3CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B2B8F3E1B4E20A900C7E3CB /* Build configuration list for PBXNativeTarget "day3-connection-delegate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B2B8F3F1B4E20A900C7E3CB /* Debug */,
+				0B2B8F401B4E20A900C7E3CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0B2B8F411B4E20A900C7E3CB /* Build configuration list for PBXNativeTarget "day3-connection-delegateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B2B8F421B4E20A900C7E3CB /* Debug */,
+				0B2B8F431B4E20A900C7E3CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0B2B8F131B4E20A900C7E3CB /* Project object */;
+}
